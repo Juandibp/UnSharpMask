@@ -17,7 +17,7 @@ public class UnSharpMask {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        String Directory = "C:\\Users\\juand\\Desktop\\Paper AA\\";
+        String Directory = "../Paper AA/";
         String imageFilename = "bacteria.jpg";
 
         File originalImgFile = new File(Directory+imageFilename);
