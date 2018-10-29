@@ -59,7 +59,7 @@ public class UnSharpMask {
         //another 2D array called blurredImage
         try {
             //both the loadedImage and blurredPixels will hold the result of the boxcar function and 
-            /*boxCar(loadedImage, origPixels, blurredPixels, left, top,
+            boxCar(loadedImage, origPixels, blurredPixels, left, top,
                     right, bottom, boxWidth, boxHeight);
             System.out.printf("Filtering finished, saving the blurred image.\n");
             //save the loadedImage imagebuffer to a new file
@@ -69,7 +69,7 @@ public class UnSharpMask {
             } catch (Exception e) {
                 System.out.println("Eror saving blurred image" + e.toString());
             }
-*/
+
             System.out.printf("Now applying unsharp mask filter. Please wait...\n");
             //sharpenes the image using USM and it back to loadedImage ImageBuffer object 
             unsharpMask(loadedImage, origPixels, blurredPixels, left, top,
